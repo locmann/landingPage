@@ -31,7 +31,7 @@ function send() {
         let msg = "<html><h2>Заявка</h2><p>" + fName + "</p><p>" + lName + "</p><p>" + phone + "</p><p>" + uni + "</p>" + "</html>";
         console.log(ar);
         Email.send({
-            SecureToken : "7f6c2f27-30e0-4ab7-afb7-559180faf83a",
+            SecureToken : "",
             To : eMail,
             From : "b0ne7228@gmail.com",
             Subject : "This is the subject",
@@ -44,6 +44,3 @@ function send() {
     
 }
 
-
-//41F14202EEF4865723F5365C9EBE9F277BBD  smpt pass
-//Your security token is 7f6c2f27-30e0-4ab7-afb7-559180faf83a Please take note of this.
